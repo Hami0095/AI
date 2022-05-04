@@ -127,7 +127,7 @@ So, should we say goodbye to that customer?
 print(ann.predict(sc.transform([[1, 0, 0, 600, 1, 40, 3, 60000, 2, 1, 1, 50000]])) > 0.5)
 print(ann.predict(sc.transform([[1,0,0, 150, 0, 35, 1, 500,0,0,1,5000]]))>0.5)
 
-"""**Solution**
+##"""**Solution**
 
 ##Therefore, our ANN model predicts that this customer stays in the bank!
 
